@@ -2,6 +2,9 @@ import Vapor
 import FluentProvider
 import HTTP
 
+
+// TODO: Delete, keeping around for example
+
 final class Post: Model {
     let storage = Storage()
     
