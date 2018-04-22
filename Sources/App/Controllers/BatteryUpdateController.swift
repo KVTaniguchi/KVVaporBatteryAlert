@@ -3,6 +3,9 @@
 import Vapor
 import FluentProvider
 
+// url
+// ..../api/batteryUpdate/create
+// with a payload
 
 struct BatteryUpdateController {
     func addRoutes(to drop: Droplet) {
